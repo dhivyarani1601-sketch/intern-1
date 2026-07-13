@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LED Control Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            text-align:center;
+            margin-top:80px;
+        }
+
+        h1{
+            color:#333;
+        }
+
+        .button{
+            display:inline-block;
+            width:180px;
+            padding:15px;
+            margin:15px;
+            font-size:22px;
+            text-decoration:none;
+            color:white;
+            border-radius:8px;
+        }
+
+        .on{
+            background:green;
+        }
+
+        .off{
+            background:red;
+        }
+
+        .button:hover{
+            opacity:0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>💡 LED Control Dashboard</h1>
+
+    <a href="/LED=ON" class="button on">LED ON</a>
+
+    <a href="/LED=OFF" class="button off">LED OFF</a>
+
+</body>
+</html>
